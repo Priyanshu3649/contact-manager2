@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header, .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.app-body {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.login-page, .signup-page, .dashboard-page {
+    max-width: 600px;
+    margin: 20px auto;
+}

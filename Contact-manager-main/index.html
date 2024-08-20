@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Manger</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Contact Manger</h1>
+    </nav>
+
+    <!-- Addcontact -->
+    <div id="addContact">
+      <h2>Add Contact</h2>
+      <!-- form -->
+      <form id="form">
+        <!-- Full Name -->
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <!-- Full email -->
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" id="email" email="email" required />
+        </div>
+        <!-- Submit button -->
+        <button id="btn" type="submit">Submit</button>
+      </form>
+    </div>
+    <hr />
+    <!-- Contact List -->
+    <div id="contact-list"></div>
+    <script src="main.js"></script>
+  </body>
+</html>

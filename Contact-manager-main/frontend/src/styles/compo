@@ -1,0 +1,11 @@
+Additional Pages and Components
+You can build the additional pages (e.g., Signup.js, ContactList.js, ContactDetails.js) similarly by following the patterns shown above. For example:
+
+Signup.js will be similar to Login.js, with a form to handle user registration.
+ContactList.js will fetch and display a list of contacts.
+ContactDetails.js will show individual contact details.
+Setting Up OAuth and Cloud Storage
+You will need to configure OAuth in your backend by using libraries like passport-google-oauth20 and passport-github. Additionally, for cloud storage, you can integrate services like AWS S3, Google Cloud Storage, or Cloudinary for storing contact images.
+
+Tailwind CSS and Flowbite
+For styling, you can set up Tailwind CSS and Flowbite in your React app by following their respective installation guides. Tailwind allows you to use utility-first CSS classes, 
